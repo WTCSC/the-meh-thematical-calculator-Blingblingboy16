@@ -1,21 +1,8 @@
 import time
+from calculator import add, subtract, multiply, divide
 
 print("welcome to the most basic calculator ever, i hope you hate it here as much as i do")
 time.sleep(1)
-
-def add(a, b):
-    return a + b
-
-def subtract(a, b):
-    return a - b
-
-def multiply(a, b):
-    return a * b
-
-def divide(a, b):
-    if b == 0:
-        raise ValueError("are you really trying to divide by zero rn")
-    return a / b
 
 def calculator():
     print("screw you for even trying to use this")
